@@ -1,0 +1,144 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Молдир – Эксперт по уходу</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: #fff6f9 url('https://i.imgur.com/8Qqvupn.png') repeat;
+            background-size: 200px;
+            color: #444;
+        }
+
+        header {
+            background-color: #ffeef3;
+            padding: 60px 20px;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+            color: #d97b93;
+        }
+
+        header p {
+            font-size: 18px;
+            color: #666;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 30px 20px;
+            background-color: #ffffffcc;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
+        h2 {
+            color: #cc5c79;
+        }
+
+        .buttons {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .buttons a {
+            text-decoration: none;
+            display: inline-block;
+            margin: 10px;
+            padding: 12px 20px;
+            border-radius: 5px;
+            color: white;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .whatsapp {
+            background-color: #25D366;
+        }
+
+        .instagram {
+            background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af);
+        }
+
+        .buttons a:hover {
+            opacity: 0.85;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        input, textarea {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 12px;
+            background-color: #d97b93;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #c06078;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            color: #aaa;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Молдир</h1>
+        <p>Эксперт по подбору ухода</p>
+        <p><em>Будем сиять вместе</em></p>
+    </header>
+
+    <section>
+        <h2>Обо мне</h2>
+        <p>Привет! Меня зовут Молдир, и я эксперт по подбору ухода за кожей лица и тела. Работаю в сфере уходовой косметики уже более 3 лет.</p>
+        <p>Знаю составы, ориентируюсь в действующих ингредиентах и помогла более <strong>500+ довольным клиентам</strong> подобрать эффективный уход под их особенности и цели.</p>
+        <p>Консультирую онлайн, с любовью к коже и делу.</p>
+    </section>
+
+    <section>
+        <h2>Связаться со мной</h2>
+        <div class="buttons">
+            <a class="whatsapp" href="https://wa.me/77479382176" target="_blank">Написать в WhatsApp</a>
+            <a class="instagram" href="https://instagram.com/x_molya" target="_blank">Мой Instagram</a>
+        </div>
+
+        <form action="mailto:moldiralpyssova@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Ваше имя" required>
+            <input type="email" name="email" placeholder="Ваш email" required>
+            <textarea name="message" rows="5" placeholder="Ваше сообщение" required></textarea>
+            <button type="submit">Отправить</button>
+        </form>
+    </section>
+
+    <div class="footer">
+        © 2025 Молдир. Все права защищены.
+    </div>
+</body>
+</html>
